@@ -25,13 +25,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 " ide plugins
 Plug 'airblade/vim-gitgutter'
-Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
+source ~/.config/nvim/plug-config/plug_lsp.vim
 
 call plug#end()
 
