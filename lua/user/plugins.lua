@@ -50,7 +50,8 @@ return packer.startup(function(use)
   ----------------------
 
   -- use "morhetz/gruvbox"
-  use "lunarvim/darkplus.nvim"
+  use 'sainnhe/gruvbox-material'
+  -- use "lunarvim/darkplus.nvim"
   use "vim-airline/vim-airline"
   use "mhinz/vim-startify"
   use "tpope/vim-commentary"
