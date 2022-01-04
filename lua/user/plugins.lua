@@ -50,8 +50,8 @@ return packer.startup(function(use)
   ----------------------
 
   -- use "morhetz/gruvbox"
-  use 'sainnhe/gruvbox-material'
-  -- use "lunarvim/darkplus.nvim"
+  -- use 'sainnhe/gruvbox-material'
+  use "lunarvim/darkplus.nvim"
   use "vim-airline/vim-airline"
   use "mhinz/vim-startify"
   use "tpope/vim-commentary"
@@ -85,6 +85,17 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
+
+  -- git
+  use "lewis6991/gitsigns.nvim"
+
+  --nvim-tree
+  use "kyazdani42/nvim-web-devicons"
+  use "kyazdani42/nvim-tree.lua"
+
+  --buffer_line
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   ----------------------
   -- Hristo's plugins --

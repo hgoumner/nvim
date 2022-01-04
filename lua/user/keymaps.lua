@@ -25,7 +25,7 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
@@ -42,6 +42,7 @@ keymap("n", "Q", "<nop>", opts)
 keymap("n", "<leader>w", ":w<cr>", opts)
 keymap("n", "<leader>q", ":q!<cr>", opts)
 keymap("n", "<leader>x", ":x<cr>", opts)
+keymap("n", "<leader>s", ":set hlsearch!<cr>", opts)
 
 -- Visual --
 -- Stay in indent mode

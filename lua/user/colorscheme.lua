@@ -9,9 +9,7 @@
 
 vim.cmd [[
 try
-    let g:gruvbox_material_background = 'hard'
-    colorscheme gruvbox-material
-    set background=dark
+    colorscheme darkplus
 catch /^Vim\%((\a\+)\)\=:E185/
     colorscheme default
     set background=dark
