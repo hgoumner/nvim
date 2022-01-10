@@ -54,8 +54,9 @@ return packer.startup(function(use)
   use "lunarvim/darkplus.nvim"
   use "vim-airline/vim-airline"
   use "mhinz/vim-startify"
-  use "tpope/vim-commentary"
-
+  -- use "tpope/vim-commentary"
+  use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
 
   -- completion
   use "hrsh7th/nvim-cmp" -- The completion plugin

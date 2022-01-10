@@ -38,6 +38,8 @@ keymap("n", "<A-l>", ":bnext<CR>", opts)
 keymap("n", "<A-h>", ":bprevious<CR>", opts)
 
 -- Hristo's mappings
+keymap("n", "gg", "gg0", opts)
+keymap("n", "G", "G0", opts)
 keymap("n", "Q", "<nop>", opts)
 keymap("n", "<leader>w", ":w<cr>", opts)
 keymap("n", "<leader>q", ":q!<cr>", opts)

@@ -9,3 +9,5 @@ require("user.treesitter")
 require("user.gitsigns")
 require("user.nvim-tree")
 require("user.bufferline")
+require("user.comment")
+
